@@ -1,0 +1,42 @@
+.project {
+  margin-left: 5%;
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+
+  &-1 {
+    width: 300px;
+    padding: 5px;
+    box-shadow: rgba(116, 116, 173, 0.25) 0px 13px 27px -5px,
+      rgba(54, 50, 50, 0.3) 0px 8px 16px -8px;
+  }
+  .meal {
+    width: 300px;
+    border-radius: 5px;
+  }
+  .p-heading {
+    height: 8rem;
+  }
+  .container-link {
+    display: flex;
+
+    justify-content: space-around;
+    margin-bottom: 10px;
+    .git-link {
+      text-decoration: none;
+      color: #ffd700;
+      background: rgb(102, 34, 34);
+      padding: 8px;
+      border-radius: 20px;
+    }
+    .web-link {
+      text-decoration: none;
+      color: #ffd700;
+      background: rgb(102, 34, 34);
+      padding: 8px;
+      border-radius: 20px;
+    }
+  }
+}
